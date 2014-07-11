@@ -1,0 +1,13 @@
+﻿<Window x:Class="timedNoteTaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Timed Note Taker" Height="500" Width="700">
+     <Grid>
+          <StackPanel>
+               <Button Click="copyButton_Click" x:Name="copyButton">Copy to clipboard</Button>
+               <TextBlock x:Name="notesBox" Height="325" />
+               <Separator />
+               <TextBox Height="125" TextWrapping="Wrap" x:Name="theTextBox" PreviewKeyDown="theTextBox_PreviewKeyDown"/>
+          </StackPanel>
+     </Grid>
+</Window>
