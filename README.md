@@ -1,5 +1,5 @@
-Timed Note Taker
-================
+[Timed Note Taker](https://github.com/skaliak/timedNoteTaker)
+==================
 
  - Written in C# and WPF
  - Created because I needed a quick and easy way to record observation notes
